@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anjanbharadwaj.bookrent.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Instructions"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/calendar"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@android:color/holo_green_dark"
+            android:text="Calendar" />
+
+        <Button
+            android:id="@+id/mainlib"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:text="SC Library"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Request Book"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mylib"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_weight="1"
+            android:background="?android:attr/textColorLink"
+            android:text="My Library"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="285dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:text="Add Book"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

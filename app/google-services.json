@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "222595884851",
+    "firebase_url": "https://schacks-238f9.firebaseio.com",
+    "project_id": "schacks-238f9",
+    "storage_bucket": "schacks-238f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222595884851:android:c540158526a4d125",
+        "android_client_info": {
+          "package_name": "com.example.anjanbharadwaj.bookrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222595884851-6prim9lq8l5d19sfqokgof54co09omdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anjanbharadwaj.bookrent",
+            "certificate_hash": "63380f37a08568dadd1a6b1f76b9da1f35d7ec51"
+          }
+        },
+        {
+          "client_id": "222595884851-dt3ehl1lgafikook6mdscna5jtc57inc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-MlNbW-eUMZFDrXhgmg9IDCnPpoy883M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222595884851-dt3ehl1lgafikook6mdscna5jtc57inc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
